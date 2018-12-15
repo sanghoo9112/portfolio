@@ -7,8 +7,9 @@ $(document).ready(function($) {
 
 	"use strict";
 
-  $("#go_blog_link").on('click',function(){
 
+  $("#go_blog_link").on('click',function(){
+    alert("hi")
     window.location='https://derekpark.tistory.com';
 
   });
